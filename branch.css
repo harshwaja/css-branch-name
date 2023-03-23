@@ -1,0 +1,52 @@
+body{
+   background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bdr {
+    color: bisque;
+    background-color: aquamarine;
+    height: 100;
+}
+
+.text {
+    color: blueviolet;
+    background-color: whitesmoke;
+    border: 3px solid red;
+    width: 660px;
+    text-align: center;
+    text-decoration: underline;
+}
+.heading{
+    text-shadow: 2px 3px 8px rgb(168, 5, 10);
+    font-family: 'Heebo', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-variant: small-caps;
+    background-color: rgb(43, 3, 55);
+}
+a :link{text-decoration: none;
+}
+a:hover{
+    background-color: rgb(168, 5, 10);
+    color: white;
+    cursor: pointer;
+    
+}
+ol{ list-style-type: lower-alpha;
+}
+#ab{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  overflow: scroll;
+
+}
+@media screen and(min-width:450)
+
+
+{
+    
+}
